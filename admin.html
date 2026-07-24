@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ধন্যবাদ ফাউন্ডেশন | Admin Panel</title>
+
+<link rel="stylesheet" href="admin.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- Login Page -->
+
+<div id="loginPage">
+
+<div class="login-box">
+
+<img src="logo.png" class="logo">
+
+<h2>ধন্যবাদ ফাউন্ডেশন</h2>
+
+<p>Secure Admin Login</p>
+
+<input
+type="email"
+id="email"
+placeholder="Admin Email">
+
+<input
+type="password"
+id="password"
+placeholder="Password">
+
+<button id="loginBtn">
+
+<i class="fa-solid fa-right-to-bracket"></i>
+
+Login
+
+</button>
+
+<p id="loginError"></p>
+
+</div>
+
+</div>
+
+<!-- Dashboard -->
+
+<div id="dashboard" style="display:none;">
+
+<header class="topbar">
+
+<div>
+
+<h2>
+
+<i class="fa-solid fa-user-shield"></i>
+
+Admin Dashboard
+
+</h2>
+
+<p>Dhonnobad Foundation</p>
+
+</div>
+
+<button id="logoutBtn">
+
+<i class="fa-solid fa-right-from-bracket"></i>
+
+Logout
+
+</button>
+
+</header>
+
+<!-- Statistics -->
+
+<section class="stats">
+
+<div class="stat-card">
+
+<h3>মোট আবেদন</h3>
+
+<h1 id="totalCount">0</h1>
+
+</div>
+
+<div class="stat-card pending">
+
+<h3>Pending</h3>
+
+<h1 id="pendingCount">0</h1>
+
+</div>
+
+<div class="stat-card approved">
+
+<h3>Approved</h3>
+
+<h1 id="approvedCount">0</h1>
+
+</div>
+
+</section>
+
+<!-- Search -->
+
+<div class="search-box">
+
+<input
+type="text"
+id="search"
+placeholder="নাম বা মোবাইল নম্বর লিখে খুঁজুন...">
+
+</div>
+
+<!-- Applications -->
+
+<div id="applicationList">
+
+</div>
+
+</div>
+
+<script type="module" src="admin.js"></script>
+
+</body>
+
+</html>

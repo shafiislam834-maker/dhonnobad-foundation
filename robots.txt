@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://shafiislam834-maker.github.io/dhonnobad-foundation/sitemap.xml
