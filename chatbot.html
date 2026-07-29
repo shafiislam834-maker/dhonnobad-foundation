@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ধন্যবাদ AI সহকারী</title>
+
+<link rel="stylesheet" href="chatbot.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- Floating Button -->
+
+<button id="chatToggle" class="chat-toggle">
+
+<i class="fa-solid fa-comments"></i>
+
+</button>
+
+<!-- Chat Box -->
+
+<div class="chat-box" id="chatBox">
+
+<!-- Header -->
+
+<div class="chat-header">
+
+<div>
+
+<h3>💜 ধন্যবাদ AI</h3>
+
+<p>আপনাকে কীভাবে সাহায্য করতে পারি?</p>
+
+</div>
+
+<button id="closeChat">
+
+<i class="fa-solid fa-xmark"></i>
+
+</button>
+
+</div>
+
+<!-- Messages -->
+
+<div class="chat-body" id="chatBody">
+
+<div class="bot-message">
+
+আসসালামু আলাইকুম 🌸<br><br>
+
+আমি ধন্যবাদ ফাউন্ডেশনের AI সহকারী।
+
+আপনি নিচের যেকোনো প্রশ্ন করতে পারেন—
+
+<br><br>
+
+✅ ধন্যবাদ ফাউন্ডেশন কী?
+
+<br>
+
+✅ টাকা কীভাবে জমা দেব?
+
+<br>
+
+✅ বিকাশ নম্বর
+
+<br>
+
+✅ নগদ নম্বর
+
+<br>
+
+✅ সদস্য কীভাবে হব?
+
+<br>
+
+✅ যোগাযোগ
+
+<br>
+
+✅ প্রতিষ্ঠাতা কে?
+
+</div>
+
+</div>
+
+<!-- Input -->
+<!-- Quick Menu -->
+
+<div class="quick-menu">
+
+<button onclick="quickQuestion('টাকা জমা')">
+
+💰 টাকা জমা দিন
+
+</button>
+
+<button onclick="quickQuestion('সদস্য')">
+
+👥 সদস্য হোন
+
+</button>
+
+<button onclick="quickQuestion('কার্যক্রম')">
+
+❤️ কার্যক্রম
+
+</button>
+
+<button onclick="quickQuestion('যোগাযোগ')">
+
+📞 যোগাযোগ
+
+</button>
+
+<button onclick="quickQuestion('বিকাশ')">
+
+📱 বিকাশ
+
+</button>
+
+<button onclick="quickQuestion('নগদ')">
+
+💳 নগদ
+
+</button>
+
+</div>
+
+<div class="chat-input">
+
+<input
+
+type="text"
+
+id="userInput"
+
+placeholder="আপনার প্রশ্ন লিখুন...">
+
+<button id="sendBtn">
+
+<i class="fa-solid fa-paper-plane"></i>
+
+</button>
+
+</div>
+
+</div>
+
+<script src="chatbot.js"></script>
+
+</body>
+
+</html>
