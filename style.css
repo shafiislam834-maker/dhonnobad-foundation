@@ -678,3 +678,41 @@ header.hide-header {
 .ai-chatbot:hover {
     transform: scale(1.1);
 }
+/* Chatbot Button - WhatsApp এর উপরে */
+
+.chat-toggle {
+    position: fixed;
+
+    right: 20px;
+    bottom: 95px;
+
+    width: 65px;
+    height: 65px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: linear-gradient(135deg, #6d28d9, #9333ea);
+
+    color: #fff;
+
+    font-size: 28px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    box-shadow: 0 10px 25px rgba(109, 40, 217, .4);
+
+    z-index: 9999;
+
+    transition: .3s;
+}
+
+.chat-toggle:hover {
+    transform: scale(1.1);
+}
